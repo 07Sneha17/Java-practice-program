@@ -10,7 +10,8 @@ public class Main5{
          int temp=n;
         while (temp!=0) {
              int digit = temp % 10;
-             s=s+(int)Math.pow(digit,c);
+             s=s+c;
+              //s=s+Math.pow(digit,c);
             temp=temp/10;
              c++;
         }
